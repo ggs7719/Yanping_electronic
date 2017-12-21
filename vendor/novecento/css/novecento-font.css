@@ -36,7 +36,7 @@
 
 
 /* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/2c09ee");
+/*@import url("//hello.myfonts.net/count/2c09ee");*/
 
   
 @font-face {font-family: 'Novecentosanswide-Bold';src: url('../fonts/2C09EE_0_0.eot');src: url('../fonts/2C09EE_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2C09EE_0_0.woff') format('woff'),url('../fonts/2C09EE_0_0.ttf') format('truetype');}
