@@ -185,27 +185,27 @@ jQuery(document).ready(function () {
     //html5_resizer();
 
     // Hero image
-    var document_height = jQuery( window ).height();
-    var document_width = jQuery( window ).width();
-    jQuery(".heroimage-wrap").height(document_height);
+    // var document_height = jQuery( window ).height();
+    // var document_width = jQuery( window ).width();
+    // jQuery(".heroimage-wrap").height(document_height);
 
-    var header_height = jQuery(".outer-wrap").outerHeight() * -1;
-    console.log(header_height);
-    if (header_height!==0) {
-        // $("#heroimage1").css("marginTop",header_height);
-    }
-    jQuery(window).resize(function() {
+    // var header_height = jQuery(".outer-wrap").outerHeight() * -1;
+    // console.log(header_height);
+    // if (header_height!==0) {
+    //     // $("#heroimage1").css("marginTop",header_height);
+    // }
+    // jQuery(window).resize(function() {
 
-        document_height = jQuery( window ).height();
+    //     document_height = jQuery( window ).height();
 
-        if ( jQuery(".outer-wrap").is(":visible") ) {
-            // header_height = $(".'.esc_js($offsetclass).'").outerHeight() * -1;
-            // $("#heroimage1").css({"marginTop":header_height,"background-size":"cover"});
-        } else {
-            jQuery("#heroimage").css({"marginTop":"0","background-size":"cover"});
-        }
-        jQuery(".heroimage-wrap").height(document_height);
-    });
+    //     if ( jQuery(".outer-wrap").is(":visible") ) {
+    //         // header_height = $(".'.esc_js($offsetclass).'").outerHeight() * -1;
+    //         // $("#heroimage1").css({"marginTop":header_height,"background-size":"cover"});
+    //     } else {
+    //         jQuery("#heroimage").css({"marginTop":"0","background-size":"cover"});
+    //     }
+    //     jQuery(".heroimage-wrap").height(document_height);
+    // });
 
 
 
@@ -327,29 +327,29 @@ jQuery(document).ready(function () {
 
     /* Google Analytics */
 
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    // (function (i, s, o, g, r, a, m) {
+    //     i['GoogleAnalyticsObject'] = r;
+    //     i[r] = i[r] || function () {
+    //         (i[r].q = i[r].q || []).push(arguments)
+    //     }, i[r].l = 1 * new Date();
+    //     a = s.createElement(o),
+    //         m = s.getElementsByTagName(o)[0];
+    //     a.async = 1;
+    //     a.src = g;
+    //     m.parentNode.insertBefore(a, m)
+    // })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-40696437-6', 'auto');
-    ga('send', 'pageview');
+    // ga('create', 'UA-40696437-6', 'auto');
+    // ga('send', 'pageview');
 
-    var gmapIsReady = false;
+    // var gmapIsReady = false;
 
-    jQuery('.gm-toggle-link').click(function() {
-        if (!gmapIsReady) {
-            initGmap();
-        }
-        jQuery('#gm-panel').slideToggle('slow');
-    });
+    // jQuery('.gm-toggle-link').click(function() {
+    //     if (!gmapIsReady) {
+    //         initGmap();
+    //     }
+    //     jQuery('#gm-panel').slideToggle('slow');
+    // });
 
 
     /* Google map */
